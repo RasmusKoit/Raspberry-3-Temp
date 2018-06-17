@@ -6,7 +6,7 @@ while True:
     sleep(30)
     value = float(str(check_output(["/opt/vc/bin/vcgencmd", "measure_temp"]))[7:-5])
 
-    if (value > 60):
+    if (value > 70):
         print("too hot")
         call(["cpufreq-set", "-r", "-f", "600000"])
     else:
