@@ -1,6 +1,6 @@
 # Temp Controll
 
-Controls CPU speed based on temperature
+Controls CPU speed based on temperature for Raspberry 3
 
 ## Requirements
 
